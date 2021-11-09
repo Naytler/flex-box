@@ -1,9 +1,9 @@
 //document.write("hi world");
 //console.log("Hi fi");
-
+/*
 let x = 100;
 let y = 97;
-
+*/
 //document.write(x);
 
 
@@ -95,3 +95,111 @@ for(u = 4; u < 8; u++){
 
 document.write(sum);
 */
+
+
+/*
+function name(){
+    alert("eshkarola");
+}
+
+name();
+name();
+*/
+/*
+function sayHello(name){
+    alert("Hi, " + name);
+}
+
+sayHello("David");
+sayHello("Sarah");
+sayHello("john");
+*/
+
+/*
+function test(x,y){
+    if(x > y){
+        document.write("100%")
+    }else if(x < y){
+        document.write("0%")
+    }else{
+        document.write("50%")
+    }
+}
+
+test(5,7);
+test(7,7);
+test(7,5);
+*/
+
+/*
+function sayHello(name, age){
+    document.write("my name is " + name + "I am is " + age + " old");
+}
+
+sayHello("Ruslan ", 28);
+*/
+
+/*
+function myFunction(x,y){
+    return x * y;
+}
+
+let a = myFunction(5, 6); // не вернет ничего данная функция
+*/
+
+/*
+function ret(a, b){
+    let c = a + b;
+    return c;
+}
+
+document.write(ret(5, 6));
+*/
+/*
+let user = prompt("please write here your name");
+
+alert(user);*/
+
+/*
+let result = confirm("do you really want leave this page?");
+if(result == true){
+    alert("thanks for visiting");
+}else{
+    alert("thanks for stay with us");
+}*/
+/*
+function test(number){
+    while(number < 5){
+        number++
+    }
+    return number;
+}
+alert(test(2 ));*/
+/*
+function sayHello(){
+    let c = prompt("you name pls");
+    document.write("my name is " + c);
+}
+
+sayHello();*/
+
+
+/*
+let person = {
+    name: "John", age: 31, favColor: "blue", height: 183
+};
+
+let x = person.age;
+document.write(x)
+
+let y = person['age'];
+
+document.write(y)
+*/
+
+let course =  {name: "javascript", day: 20};
+
+document.write(course.name.length)
+
+let x = course.name;
+document.write(x.length)
